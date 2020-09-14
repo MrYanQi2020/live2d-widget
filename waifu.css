@@ -93,10 +93,14 @@
 #waifu-tool span {
 	color: #7b8c9d;
 	cursor: pointer;
-	display: block;
 	line-height: 30px;
 	text-align: center;
 	transition: color .3s;
+	display: none;
+}
+#waifu-tool span:nth-child(0),#waifu-tool span:nth-child(2),#waifu-tool span:nth-child(3),#waifu-tool span:nth-child(6),{
+	display: block;
+
 }
 
 #waifu-tool span:hover {
